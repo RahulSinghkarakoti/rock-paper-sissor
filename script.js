@@ -13,7 +13,7 @@ var reset = document.querySelector(".box-reset");
     compscore = 0;
     score[0].innerHTML = `${userscore}`;
     score[1].innerHTML = `${compscore}`;
-    console.log("rest pressed");
+    // console.log("rest pressed");
   });
  
 
@@ -66,6 +66,6 @@ choices.forEach((choice) => {
   choice.addEventListener("click", () => {
     const userchoice = choice.getAttribute("id");
     playgame(userchoice);
-    console.log(choice);
+    // console.log(choice);
   });
 });
