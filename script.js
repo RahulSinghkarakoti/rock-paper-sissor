@@ -49,7 +49,7 @@ const playgame = (userchoice) => {
 
     } else if (compchoice == "scissors" && userchoice == "rock") {
         msg.innerHTML = "You win!";
-        compscore++;
+        userscore++;
         score[1].innerHTML = `${compscore}`; 
         msg_box.style.backgroundColor="green";
 
