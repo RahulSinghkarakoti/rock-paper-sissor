@@ -1,0 +1,86 @@
+@font-face {
+    font-family: funcky;
+    src: url("SuperFunky-lgmWw.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hiddens;
+}
+
+body{
+    text-align: center;
+    background-color: #F9F7F7;
+}
+
+h1{
+    font-family: funcky;
+    font-size: xxx-large;
+    color: #112D4E;
+}
+
+.container{
+  height: 40vmin;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.choices{
+    height: 40vmin;
+    width: 130vmin;
+    gap:3vmin;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.choice{
+    height: 40vmin;
+    width: 100vmin; 
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.choice:hover{
+  opacity: .80; 
+  /* box-shadow:inset 40px red; */
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17vmin;
+    height: 15vmin;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ 
+.msg{
+    
+    height: 20vmin;
+    width: 100%;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.box{
+    height: 8vmin;
+    width: 30vw;
+    border: 3px solid  black;
+    border-radius: 20px; 
+    background-color: #DBE2EF; 
+    text-align: center;
+}
+ 
+
+ 
